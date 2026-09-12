@@ -1,0 +1,32 @@
+# Scan output (contains downloaded assets + potential leaked secrets — never commit this)
+recon_data/
+
+# TruffleHog custom config (may contain org-specific detector rules)
+config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Playwright
+.playwright/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files (in case API keys/tokens get added later)
+.env
+.env.local

@@ -1,0 +1,20 @@
+# Example TruffleHog filesystem-scan config.
+# Copy this file to `config.yaml` in the project root to customize which
+# detectors run during Phase 4 (LiveScan) and Phase 5 (WaybackScan).
+#
+# If no config.yaml is present, TruffleHog runs with ALL default detectors
+# enabled, which is usually what you want for broad recon.
+#
+# See TruffleHog's docs for the full list of supported detector names:
+# https://github.com/trufflesecurity/trufflehog
+
+detectors:
+  - AWS
+  - GitHub
+  - Slack
+  - Stripe
+  - GoogleAPI
+  - Twilio
+  - SendGrid
+  - Mailgun
+  - Firebase
