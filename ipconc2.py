@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 IP CONCENTRATION ANALYZER (Modified for orchestrator)
-- Accepts a dynamic list of subdomains (not hardcoded anymore)
-- Auto-resolves IPs via DNS
+- Accepts a dynamic list of subdomains
+- Resolves IPs via DNS
 - Groups subdomains by shared IP (finds attack surface clusters)
 - Classifies each cluster: CDN-protected vs Exposed Origin
 - Returns exposed subdomains for deep scanning
