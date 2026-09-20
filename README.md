@@ -65,7 +65,7 @@ vantage-point/
 - **Docker** — TruffleHog runs as a container (`trufflesecurity/trufflehog:latest`); make sure the Docker daemon is running before a scan
 - **Playwright browsers** — installed separately after the pip install (see below)
 
----
+--- 
 
 ## 🚀 Installation
 
