@@ -2,7 +2,7 @@
 
 **An automated threat-intelligence & attack-surface recon pipeline** — enumerate subdomains, fingerprint infrastructure, and hunt for leaked secrets in both live and historical JS/config bundles.
 
-Built as a bug-bounty recon tool. Runs one command, walks a target domain through five phases, and outputs a structured JSON report plus flat-file leak reports.
+Built as a bug-bounty recon tool. Runs one command, walks a target domain through five phases, and outputs a structured JSON and PDF report.
 
 ```
 Domain in  →  Subdomains  →  Security Posture  →  Infra Clustering  →  Live Secret Scan  →  Wayback Secret Scan  →  Report out
