@@ -7,7 +7,6 @@ IP CONCENTRATION ANALYZER (Modified for orchestrator)
 - Classifies each cluster: CDN-protected vs Exposed Origin
 - Returns exposed subdomains for deep scanning
 """
-
 import dns.resolver
 import requests
 import socket
